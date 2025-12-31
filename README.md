@@ -1,154 +1,112 @@
-.
+# 📊 End-to-End Data Analytics Project | Python, SQL, Power BI
+
+## 🔍 Project Overview
+This project demonstrates a complete **end-to-end data analytics workflow**, starting from raw data ingestion to delivering actionable insights through an interactive **Power BI dashboard**.  
+It highlights strong skills in **Python, SQL, data cleaning, exploratory data analysis (EDA), and data visualization**, aligned with real-world business requirements.
 
-📊 End-to-End Data Analytics Project | Python, SQL, Power BI
-🔍 Project Overview
+---
 
-This project showcases a complete end-to-end data analytics pipeline, covering data ingestion, exploratory data analysis (EDA), data cleaning, SQL-based analysis, and interactive dashboard development using Power BI.
+## 🧠 Business Problem
+Organizations often face challenges working with **raw and inconsistent data**, making it difficult to:
+- Track key performance indicators (KPIs)
+- Identify trends and patterns
+- Make data-driven business decisions
 
-The goal of this project is to transform raw data into actionable business insights and present them through a clean, interactive dashboard that supports data-driven decision-making.
+**Objective:**  
+To clean, analyze, and transform raw data using **Python and SQL**, and present meaningful insights through a **Power BI dashboard** that supports effective decision-making.
 
-🧠 Business Problem
+---
 
-Organizations often work with raw, inconsistent, and fragmented data, making it difficult to:
+## 📂 Dataset
+- Structured business dataset used for analytical purposes
+- Loaded and processed using **Python (Pandas)**
+- Stored and queried using **MySQL Server**
+- Cleaned to handle missing values, duplicates, and data inconsistencies
 
-Track key performance metrics
+*(Dataset source can be added if public)*
 
-Identify trends and patterns
+---
 
-Make informed business decisions
+## 🛠️ Tools & Technologies
+- **Python** (Pandas, NumPy, Matplotlib, Seaborn)
+- **SQL (MySQL Server)**
+- **Power BI** (Data Modeling, DAX, Visualizations)
+- **Jupyter Notebook**
+- **Exploratory Data Analysis (EDA)**
+- **Data Cleaning & Preprocessing**
 
-Objective:
-To analyze historical data, extract meaningful insights using Python and SQL, and deliver a Power BI dashboard that helps stakeholders monitor performance and trends efficiently.
+---
 
-📂 Dataset
+## 🔄 Project Workflow
+### 1. Data Loading
+- Imported raw data into Python using Pandas
+- Reviewed schema, data types, and data quality
 
-Structured dataset containing business-related records
+### 2. Exploratory Data Analysis (EDA)
+- Generated descriptive statistics
+- Identified trends, patterns, and outliers
+- Created visualizations for better understanding
 
-Loaded and processed using Python (Pandas)
+### 3. Data Cleaning
+- Handled missing and null values
+- Removed duplicate records
+- Standardized column formats and data types
 
-Stored and queried using MySQL Server
+### 4. SQL Analysis (MySQL Server)
+- Loaded cleaned data into MySQL
+- Wrote optimized SQL queries using:
+  - `SELECT`, `WHERE`, `GROUP BY`
+  - Aggregate functions (`SUM`, `AVG`, `COUNT`)
+  - Filtering and conditional logic
+- Calculated business KPIs
 
-Cleaned to handle missing values, duplicates, and formatting issues
+### 5. Power BI Dashboard
+- Connected Power BI to MySQL Server
+- Built data models and relationships
+- Created interactive visuals, slicers, and KPI cards
+- Designed a clean and business-friendly dashboard
 
-(Dataset source can be mentioned if public)
+---
 
-🛠️ Tools & Technologies (ATS Keywords)
+## 📊 Key KPIs
+- Total records / transactions
+- Category-wise and time-based performance
+- Trend and growth analysis
+- High-performing vs low-performing segments
 
-Python (Pandas, NumPy, Matplotlib, Seaborn)
+---
 
-SQL (MySQL Server)
+## 📈 Dashboard Highlights
+- Interactive slicers for dynamic filtering
+- KPI cards for quick performance monitoring
+- Trend analysis using charts and tables
+- Professional layout suitable for stakeholders
 
-Power BI (DAX, Data Modeling, Visualizations)
+*(Add dashboard screenshots or Power BI Service link if available)*
 
-Jupyter Notebook
+---
 
-Data Cleaning & Preprocessing
+## 🧪 Results & Insights
+- Converted raw data into structured, analysis-ready format
+- Identified key trends and performance metrics
+- Delivered an interactive Power BI dashboard
+- Improved reporting and data visibility for decision-making
 
-Exploratory Data Analysis (EDA)
+---
 
-Dashboard Development & Reporting
+## ▶️ How to Run the Project
+1. Clone the repository:
+   ```bash
+   git clone <repository-url>
+2. Install required Python libraries:
 
-🔄 Project Workflow
-1️⃣ Data Loading (Python)
+     pip install pandas numpy matplotlib seaborn mysql-connector-python
 
-Imported raw dataset using Pandas
 
-Inspected schema, data types, and data quality
+3. Run the Jupyter Notebook for EDA and data cleaning
 
-2️⃣ Exploratory Data Analysis (EDA)
+4. Import the cleaned data into MySQL Server
 
-Generated descriptive statistics
+5. Execute SQL queries
 
-Identified trends, outliers, and data inconsistencies
-
-Visualized distributions and relationships
-
-3️⃣ Data Cleaning & Preparation
-
-Handled missing and null values
-
-Removed duplicate records
-
-Standardized column names and formats
-
-Converted data types for accurate analysis
-
-4️⃣ SQL Analysis (MySQL Server)
-
-Loaded cleaned data into MySQL
-
-Wrote optimized SQL queries using:
-
-SELECT, WHERE, GROUP BY
-
-Aggregations (SUM, AVG, COUNT)
-
-Joins and filtering logic
-
-Created queries to calculate business KPIs
-
-5️⃣ Power BI Dashboard
-
-Connected Power BI directly to MySQL Server
-
-Created relationships and data model
-
-Designed interactive visuals, slicers, and filters
-
-Built a business-friendly dashboard for insights
-
-📊 Key KPIs Tracked
-
-Total records / transactions
-
-Category-wise and time-based trends
-
-Performance comparisons
-
-Growth and contribution analysis
-
-High-performing vs low-performing segments
-
-(KPIs can be customized based on dataset)
-
-📈 Dashboard Highlights
-
-Interactive slicers for dynamic filtering
-
-KPI cards for quick performance tracking
-
-Trend analysis using charts and tables
-
-Clean, professional layout for stakeholders
-
-(Add Power BI screenshots or Service link here)
-
-🧪 Results & Insights
-
-Successfully converted raw data into structured, analysis-ready format
-
-Identified key business trends and performance patterns
-
-Delivered an interactive Power BI dashboard for decision-making
-
-Improved data visibility and reporting efficiency
-
-▶️ How to Run the Project
-
-Clone the repository:
-
-git clone <repository-url>
-
-
-Install required Python libraries:
-
-pip install pandas numpy matplotlib seaborn mysql-connector-python
-
-
-Run the Jupyter Notebook for EDA and data cleaning
-
-Import cleaned data into MySQL Server
-
-Execute SQL queries provided
-
-Open the Power BI (.pbix) file and refresh the data
+6. Open the Power BI (.pbix) file and refresh the data
