@@ -117,5 +117,5 @@ To clean, analyze, and transform raw data using **Python and SQL**, and present 
 Below are snapshots from the **Customer Behavior Dashboard** created using Power BI.
 
 ### Dashboard Overview
-![Customer Behavior Dashboard Overview](Screenshot 2025-12-31 124840.png)
+![Customer Behavior Dashboard Overview](https://github.com/SahityaSangaru6183/Customer-Behavior-Analysis/blob/main/Screenshot%202025-12-31%20124840.png)
 
