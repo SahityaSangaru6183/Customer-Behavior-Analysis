@@ -99,8 +99,8 @@ To clean, analyze, and transform raw data using **Python and SQL**, and present 
    ```bash
    git clone <repository-url>
 2. Install required Python libraries:
-
-     pip install pandas numpy matplotlib seaborn mysql-connector-python
+   ```bash
+   pip install pandas numpy matplotlib seaborn mysql-connector-python
 
 
 3. Run the Jupyter Notebook for EDA and data cleaning
