@@ -110,3 +110,12 @@ To clean, analyze, and transform raw data using **Python and SQL**, and present 
 5. Execute SQL queries
 
 6. Open the Power BI (.pbix) file and refresh the data
+
+
+## 📸 Customer Behavior Dashboard
+
+Below are snapshots from the **Customer Behavior Dashboard** created using Power BI.
+
+### Dashboard Overview
+![Customer Behavior Dashboard Overview](screenshots/customer_behavior_dashboard_1.png)
+
